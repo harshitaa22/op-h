@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testExecutions version="1">
+  <file path="/Users/imac/Desktop/OpiGo cometChat/src/packages/blocks/contactus/__tests__/step-definitions/Contactus.test.tsx">
+    <testCase name="&lt;Contactus /&gt; " duration="50"/>
+  </file>
+</testExecutions>
