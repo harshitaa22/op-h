@@ -1,0 +1,99 @@
+{
+  "id": "contactus",
+  "verion": "0.0.1",
+  "status": "preAlpha",
+  "path": "./packages/blocks/contactus",
+  "assembler-adapters": [],
+  "mobile": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "Contactus",
+      "AddContactus"
+    ],
+    "assembler-dependencies": [],
+    "catalog-dependencies": [
+      "core"
+    ],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "Contactus": {
+        "file": "Contactus.tsx",
+        "extends": "ContactusController",
+        "configURL": "",
+        "validationRulesURL": "",
+        "imports": [
+          {
+            "value": "ContactusController",
+            "path": "./ContactusController"
+          },
+          {
+            "value": "{Props}",
+            "path": "./ContactusController"
+          }
+        ]
+      }
+    },
+    "AddContactus": {
+      "file": "AddContactus.tsx",
+      "extends": "ContactusController",
+      "configURL": "",
+      "validationRulesURL": "",
+      "imports": [
+        {
+          "value": "ContactusController",
+          "path": "./ContactusController"
+        },
+        {
+          "value": "{Props}",
+          "path": "./ContactusController"
+        }
+      ]
+    }
+  },
+  "web": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "Contactus",
+      "AddContactus"
+    ],
+    "assembler-dependencies": [],
+    "catalog-dependencies": [
+      "core"
+    ],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "ContactusBlock": {
+        "file": "ContactusBlock.tsx",
+        "extends": "ContactusController",
+        "configURL": "",
+        "validationRulesURL": "",
+        "imports": [
+          {
+            "value": "ContactusController",
+            "path": "./ContactusController"
+          },
+          {
+            "value": "{Props}",
+            "path": "./ContactusController"
+          }
+        ]
+      },
+      "AddContactus": {
+        "file": "AddContactus.tsx",
+        "extends": "ContactusController",
+        "configURL": "",
+        "validationRulesURL": "",
+        "imports": [
+          {
+            "value": "ContactusController",
+            "path": "./ContactusController"
+          },
+          {
+            "value": "{Props}",
+            "path": "./ContactusController"
+          }
+        ]
+      }
+    }
+  }
+}

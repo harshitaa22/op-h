@@ -1,0 +1,923 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`contactus User navigates to addContactus 1`] = `
+<KeyboardAvoidingView
+  enabled={true}
+  keyboardVerticalOffset={0}
+  style={
+    Object {
+      "flex": 1,
+    }
+  }
+>
+  <ScrollViewMock
+    keyboardShouldPersistTaps="always"
+    style={
+      Object {
+        "backgroundColor": "#fff",
+        "flex": 1,
+        "marginLeft": "auto",
+        "marginRight": "auto",
+        "maxWidth": 650,
+        "padding": 16,
+        "width": "100%",
+      }
+    }
+  >
+    <TouchableWithoutFeedback
+      onPress={[Function]}
+      testID="Background"
+    >
+      <View>
+        <View
+          style={
+            Object {
+              "marginBottom": 25,
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "color": "#000",
+              }
+            }
+          >
+            Name
+          </Text>
+          <TextInput
+            allowFontScaling={true}
+            onChangeText={[Function]}
+            placeholder="Name"
+            rejectResponderTermination={true}
+            style={
+              Object {
+                "borderBottomWidth": 1,
+                "borderColor": "#c9c9c9",
+                "height": 45,
+              }
+            }
+            testID="txtName"
+            underlineColorAndroid="transparent"
+            value="FIRST"
+          />
+        </View>
+        <View
+          style={
+            Object {
+              "marginBottom": 25,
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "color": "#000",
+              }
+            }
+          >
+            Email
+          </Text>
+          <TextInput
+            allowFontScaling={true}
+            keyboardType="email-address"
+            onChangeText={[Function]}
+            placeholder="Email"
+            rejectResponderTermination={true}
+            style={
+              Object {
+                "borderBottomWidth": 1,
+                "borderColor": "#c9c9c9",
+                "height": 45,
+              }
+            }
+            testID="txtEmail"
+            underlineColorAndroid="transparent"
+            value="a@b.com"
+          />
+        </View>
+        <View
+          style={
+            Object {
+              "marginBottom": 25,
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "color": "#000",
+              }
+            }
+          >
+            Phone number
+          </Text>
+          <TextInput
+            allowFontScaling={true}
+            keyboardType="phone-pad"
+            maxLength={13}
+            onChangeText={[Function]}
+            placeholder="Phone number"
+            rejectResponderTermination={true}
+            style={
+              Object {
+                "borderBottomWidth": 1,
+                "borderColor": "#c9c9c9",
+                "height": 45,
+              }
+            }
+            testID="txtPhoneNumber"
+            underlineColorAndroid="transparent"
+            value="13105551212"
+          />
+        </View>
+        <Text
+          style={
+            Object {
+              "color": "#000",
+            }
+          }
+        >
+          Comments
+        </Text>
+        <TextInput
+          allowFontScaling={true}
+          multiline={true}
+          onChangeText={[Function]}
+          placeholder="Comments"
+          rejectResponderTermination={true}
+          style={
+            Object {
+              "borderColor": "#c9c9c9",
+              "borderRadius": 15,
+              "borderWidth": 1,
+              "height": 100,
+              "marginTop": 20,
+              "paddingHorizontal": 10,
+              "paddingVertical": 20,
+            }
+          }
+          testID="txtComments"
+          underlineColorAndroid="transparent"
+        />
+        <TouchableOpacity
+          activeOpacity={0.2}
+          onPress={[Function]}
+          style={
+            Object {
+              "backgroundColor": "blue",
+              "borderColor": "blue",
+              "borderRadius": 4,
+              "borderWidth": 1,
+              "marginTop": 10,
+              "paddingVertical": 8,
+            }
+          }
+          testID="btnSubmit"
+        >
+          <Text
+            style={
+              Object {
+                "color": "#fff",
+                "fontSize": 16,
+                "textAlign": "center",
+              }
+            }
+          >
+            Add New/Query
+          </Text>
+        </TouchableOpacity>
+      </View>
+    </TouchableWithoutFeedback>
+  </ScrollViewMock>
+</KeyboardAvoidingView>
+`;
+
+exports[`contactus User navigates to addContactus 2`] = `
+<KeyboardAvoidingView
+  enabled={true}
+  keyboardVerticalOffset={0}
+  style={
+    Object {
+      "flex": 1,
+    }
+  }
+>
+  <ScrollViewMock
+    keyboardShouldPersistTaps="always"
+    style={
+      Object {
+        "backgroundColor": "#fff",
+        "flex": 1,
+        "marginLeft": "auto",
+        "marginRight": "auto",
+        "maxWidth": 650,
+        "padding": 16,
+        "width": "100%",
+      }
+    }
+  >
+    <TouchableWithoutFeedback
+      onPress={[Function]}
+      testID="Background"
+    >
+      <View>
+        <View
+          style={
+            Object {
+              "marginBottom": 25,
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "color": "#000",
+              }
+            }
+          >
+            Name
+          </Text>
+          <TextInput
+            allowFontScaling={true}
+            onChangeText={[Function]}
+            placeholder="Name"
+            rejectResponderTermination={true}
+            style={
+              Object {
+                "borderBottomWidth": 1,
+                "borderColor": "#c9c9c9",
+                "height": 45,
+              }
+            }
+            testID="txtName"
+            underlineColorAndroid="transparent"
+            value="FIRST"
+          />
+        </View>
+        <View
+          style={
+            Object {
+              "marginBottom": 25,
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "color": "#000",
+              }
+            }
+          >
+            Email
+          </Text>
+          <TextInput
+            allowFontScaling={true}
+            keyboardType="email-address"
+            onChangeText={[Function]}
+            placeholder="Email"
+            rejectResponderTermination={true}
+            style={
+              Object {
+                "borderBottomWidth": 1,
+                "borderColor": "#c9c9c9",
+                "height": 45,
+              }
+            }
+            testID="txtEmail"
+            underlineColorAndroid="transparent"
+            value="a@b.com"
+          />
+        </View>
+        <View
+          style={
+            Object {
+              "marginBottom": 25,
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "color": "#000",
+              }
+            }
+          >
+            Phone number
+          </Text>
+          <TextInput
+            allowFontScaling={true}
+            keyboardType="phone-pad"
+            maxLength={13}
+            onChangeText={[Function]}
+            placeholder="Phone number"
+            rejectResponderTermination={true}
+            style={
+              Object {
+                "borderBottomWidth": 1,
+                "borderColor": "#c9c9c9",
+                "height": 45,
+              }
+            }
+            testID="txtPhoneNumber"
+            underlineColorAndroid="transparent"
+            value="13105551212"
+          />
+        </View>
+        <Text
+          style={
+            Object {
+              "color": "#000",
+            }
+          }
+        >
+          Comments
+        </Text>
+        <TextInput
+          allowFontScaling={true}
+          multiline={true}
+          onChangeText={[Function]}
+          placeholder="Comments"
+          rejectResponderTermination={true}
+          style={
+            Object {
+              "borderColor": "#c9c9c9",
+              "borderRadius": 15,
+              "borderWidth": 1,
+              "height": 100,
+              "marginTop": 20,
+              "paddingHorizontal": 10,
+              "paddingVertical": 20,
+            }
+          }
+          testID="txtComments"
+          underlineColorAndroid="transparent"
+        />
+        <TouchableOpacity
+          activeOpacity={0.2}
+          onPress={[Function]}
+          style={
+            Object {
+              "backgroundColor": "blue",
+              "borderColor": "blue",
+              "borderRadius": 4,
+              "borderWidth": 1,
+              "marginTop": 10,
+              "paddingVertical": 8,
+            }
+          }
+          testID="btnSubmit"
+        >
+          <Text
+            style={
+              Object {
+                "color": "#fff",
+                "fontSize": 16,
+                "textAlign": "center",
+              }
+            }
+          >
+            Add New/Query
+          </Text>
+        </TouchableOpacity>
+      </View>
+    </TouchableWithoutFeedback>
+  </ScrollViewMock>
+</KeyboardAvoidingView>
+`;
+
+exports[`contactus User navigates to contactus 1`] = `
+<ScrollViewMock
+  style={
+    Object {
+      "backgroundColor": "#ffffffff",
+      "flex": 1,
+      "marginLeft": "auto",
+      "marginRight": "auto",
+      "maxWidth": 650,
+      "padding": 16,
+      "width": "100%",
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "display": "none",
+      }
+    }
+  >
+    <Component
+      animationType="fade"
+      hardwareAccelerated={false}
+      transparent={false}
+      visible={false}
+    >
+      <View
+        style={
+          Object {
+            "borderColor": "#ccc",
+            "borderRadius": 4,
+            "borderWidth": 1,
+            "marginLeft": 40,
+            "marginTop": 80,
+            "padding": 15,
+            "width": "80%",
+          }
+        }
+      >
+        <ScrollViewMock>
+          <Text
+            style={
+              Object {
+                "fontSize": 16,
+                "marginVertical": 4,
+              }
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "fontWeight": "bold",
+                }
+              }
+            >
+              Id:
+                
+            </Text>
+            0
+          </Text>
+          <Text
+            numberOfLines={2}
+            style={
+              Object {
+                "fontSize": 16,
+                "marginVertical": 4,
+              }
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "fontWeight": "bold",
+                }
+              }
+            >
+              Name:
+                
+            </Text>
+          </Text>
+          <Text
+            numberOfLines={2}
+            style={
+              Object {
+                "fontSize": 16,
+                "marginVertical": 4,
+              }
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "fontWeight": "bold",
+                }
+              }
+            >
+              Email:
+                
+            </Text>
+          </Text>
+          <Text
+            numberOfLines={2}
+            style={
+              Object {
+                "fontSize": 16,
+                "marginVertical": 4,
+              }
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "fontWeight": "bold",
+                }
+              }
+            >
+              Phone Number:
+                
+            </Text>
+          </Text>
+          <Text
+            numberOfLines={10}
+            style={
+              Object {
+                "fontSize": 16,
+                "marginVertical": 4,
+              }
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "fontWeight": "bold",
+                }
+              }
+            >
+              Description:
+                
+            </Text>
+          </Text>
+          <Text
+            style={
+              Object {
+                "fontSize": 16,
+                "marginVertical": 4,
+              }
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "fontWeight": "bold",
+                }
+              }
+            >
+              Created At:
+                
+            </Text>
+          </Text>
+        </ScrollViewMock>
+        <View
+          style={
+            Object {
+              "display": "flex",
+              "flexDirection": "row",
+              "justifyContent": "space-between",
+            }
+          }
+        >
+          <TouchableOpacity
+            activeOpacity={0.2}
+            onPress={[Function]}
+            style={
+              Array [
+                Object {
+                  "backgroundColor": "blue",
+                  "borderColor": "blue",
+                  "borderRadius": 4,
+                  "borderWidth": 1,
+                  "marginTop": 10,
+                  "paddingVertical": 8,
+                },
+                Object {
+                  "width": "48%",
+                },
+              ]
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "color": "#fff",
+                  "fontSize": 16,
+                  "textAlign": "center",
+                }
+              }
+            >
+              delete
+            </Text>
+          </TouchableOpacity>
+          <TouchableOpacity
+            activeOpacity={0.2}
+            onPress={[Function]}
+            style={
+              Array [
+                Object {
+                  "width": "48%",
+                },
+                Object {
+                  "backgroundColor": "#fff",
+                  "borderColor": "#ccc",
+                  "borderRadius": 4,
+                  "borderWidth": 1,
+                  "marginTop": 10,
+                  "paddingVertical": 8,
+                },
+              ]
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "color": "#000",
+                  "fontSize": 16,
+                  "textAlign": "center",
+                }
+              }
+            >
+              Close
+            </Text>
+          </TouchableOpacity>
+        </View>
+      </View>
+    </Component>
+  </View>
+  <TouchableOpacity
+    activeOpacity={0.2}
+    onPress={[Function]}
+    style={
+      Object {
+        "alignSelf": "flex-end",
+        "backgroundColor": "blue",
+        "borderRadius": 4,
+        "display": "flex",
+        "height": 40,
+        "justifyContent": "center",
+        "marginBottom": 10,
+        "width": 120,
+      }
+    }
+    testID="btnAddComment"
+  >
+    <Text
+      style={
+        Object {
+          "color": "#fff",
+          "fontSize": 16,
+          "textAlign": "center",
+        }
+      }
+    >
+      Add New/Query
+    </Text>
+  </TouchableOpacity>
+</ScrollViewMock>
+`;
+
+exports[`contactus User navigates to contactus 2`] = `
+<ScrollViewMock
+  style={
+    Object {
+      "backgroundColor": "#ffffffff",
+      "flex": 1,
+      "marginLeft": "auto",
+      "marginRight": "auto",
+      "maxWidth": 650,
+      "padding": 16,
+      "width": "100%",
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "display": "none",
+      }
+    }
+  >
+    <Component
+      animationType="fade"
+      hardwareAccelerated={false}
+      transparent={false}
+      visible={false}
+    >
+      <View
+        style={
+          Object {
+            "borderColor": "#ccc",
+            "borderRadius": 4,
+            "borderWidth": 1,
+            "marginLeft": 40,
+            "marginTop": 80,
+            "padding": 15,
+            "width": "80%",
+          }
+        }
+      >
+        <ScrollViewMock>
+          <Text
+            style={
+              Object {
+                "fontSize": 16,
+                "marginVertical": 4,
+              }
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "fontWeight": "bold",
+                }
+              }
+            >
+              Id:
+                
+            </Text>
+            0
+          </Text>
+          <Text
+            numberOfLines={2}
+            style={
+              Object {
+                "fontSize": 16,
+                "marginVertical": 4,
+              }
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "fontWeight": "bold",
+                }
+              }
+            >
+              Name:
+                
+            </Text>
+          </Text>
+          <Text
+            numberOfLines={2}
+            style={
+              Object {
+                "fontSize": 16,
+                "marginVertical": 4,
+              }
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "fontWeight": "bold",
+                }
+              }
+            >
+              Email:
+                
+            </Text>
+          </Text>
+          <Text
+            numberOfLines={2}
+            style={
+              Object {
+                "fontSize": 16,
+                "marginVertical": 4,
+              }
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "fontWeight": "bold",
+                }
+              }
+            >
+              Phone Number:
+                
+            </Text>
+          </Text>
+          <Text
+            numberOfLines={10}
+            style={
+              Object {
+                "fontSize": 16,
+                "marginVertical": 4,
+              }
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "fontWeight": "bold",
+                }
+              }
+            >
+              Description:
+                
+            </Text>
+          </Text>
+          <Text
+            style={
+              Object {
+                "fontSize": 16,
+                "marginVertical": 4,
+              }
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "fontWeight": "bold",
+                }
+              }
+            >
+              Created At:
+                
+            </Text>
+          </Text>
+        </ScrollViewMock>
+        <View
+          style={
+            Object {
+              "display": "flex",
+              "flexDirection": "row",
+              "justifyContent": "space-between",
+            }
+          }
+        >
+          <TouchableOpacity
+            activeOpacity={0.2}
+            onPress={[Function]}
+            style={
+              Array [
+                Object {
+                  "backgroundColor": "blue",
+                  "borderColor": "blue",
+                  "borderRadius": 4,
+                  "borderWidth": 1,
+                  "marginTop": 10,
+                  "paddingVertical": 8,
+                },
+                Object {
+                  "width": "48%",
+                },
+              ]
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "color": "#fff",
+                  "fontSize": 16,
+                  "textAlign": "center",
+                }
+              }
+            >
+              delete
+            </Text>
+          </TouchableOpacity>
+          <TouchableOpacity
+            activeOpacity={0.2}
+            onPress={[Function]}
+            style={
+              Array [
+                Object {
+                  "width": "48%",
+                },
+                Object {
+                  "backgroundColor": "#fff",
+                  "borderColor": "#ccc",
+                  "borderRadius": 4,
+                  "borderWidth": 1,
+                  "marginTop": 10,
+                  "paddingVertical": 8,
+                },
+              ]
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "color": "#000",
+                  "fontSize": 16,
+                  "textAlign": "center",
+                }
+              }
+            >
+              Close
+            </Text>
+          </TouchableOpacity>
+        </View>
+      </View>
+    </Component>
+  </View>
+  <TouchableOpacity
+    activeOpacity={0.2}
+    onPress={[Function]}
+    style={
+      Object {
+        "alignSelf": "flex-end",
+        "backgroundColor": "blue",
+        "borderRadius": 4,
+        "display": "flex",
+        "height": 40,
+        "justifyContent": "center",
+        "marginBottom": 10,
+        "width": 120,
+      }
+    }
+    testID="btnAddComment"
+  >
+    <Text
+      style={
+        Object {
+          "color": "#fff",
+          "fontSize": 16,
+          "textAlign": "center",
+        }
+      }
+    >
+      Add New/Query
+    </Text>
+  </TouchableOpacity>
+</ScrollViewMock>
+`;
